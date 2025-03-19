@@ -35,7 +35,7 @@ const DetailRecipe = () => {
     return (
         <div className="recipe-container">
             <div className="recipe-header">
-                <Link to="/" className="back-button">⬅️</Link>
+                <Link to="/Tasteful-finds/" className="back-button">⬅️</Link>
                 <div className="recipe-hero">
                     <img src={recipe.strMealThumb} alt={recipe.strMeal} className="recipe-hero-img" />
                     <div className="recipe-info">
