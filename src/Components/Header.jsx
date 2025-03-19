@@ -4,7 +4,7 @@ const Header = ({  searchinput, searchClick }) => {
     
     <>
       <header className="navbar">
-        <span><img src="/logo.png" class="logo"></img></span>
+        <span><img src="logo.png" class="logo"></img></span>
         
         <h1 className="name">
           <span className="brand">Tasteful&nbsp;</span>Finds
