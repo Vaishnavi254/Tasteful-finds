@@ -12,7 +12,7 @@ root.render(
     <Router>  {/* This is where you should define your routes */}
       <Routes>
         {/* Define your routes */}
-        <Route path="//Tasteful-finds/" element={<App />} />  {/* Main route for the app */}
+        <Route path="/Tasteful-finds/" element={<App />} />  {/* Main route for the app */}
         <Route path="detail-recipe/:id" element={<DetailRecipe />} />  {/* Dynamic route for recipe detail */}
       </Routes>
     </Router>
