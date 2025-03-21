@@ -45,15 +45,10 @@ body {
 }
 h2{
   
-  color:#177c17;
+  color:#0c0c0c;
 }
 /* Hero Section (Background Image) */
-.hero {
-  background: url('foods.avif') no-repeat center center/cover;
-  text-align:center;
-  color: rgb(10, 10, 10);
-  padding: 80px 20px;
-}
+
 .search-container {
   display: flex;
   align-items: center;
@@ -403,4 +398,42 @@ a {
   .second-column {
       max-width: 100%;
   }
+}
+/* Container holding the image and text */
+/* Container holding the image and text */
+.image-container {
+  position: relative;
+  width: 100%;  /* Full width of the screen */
+  height: 300px;  /* Set a fixed height (you can adjust this as needed) */
+  overflow: hidden;  /* Prevents image from overflowing */
+}
+
+/* The image itself */
+.image {
+  width: 100%;  /* Full width of the container */
+  height: auto;  /* Maintain the aspect ratio of the image */
+  object-fit: cover;  /* Ensures the image covers the full width and height of the container */
+}
+
+/* The overlay text */
+.text-overlay {
+  position: absolute;
+  top: 50%;  /* Center vertically */
+  left: 50%;  /* Center horizontally */
+  transform: translate(-50%, -50%);  /* Offset the text by 50% to truly center it */
+  color: white;
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Styling for the text */
+.text-overlay h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.text-overlay p {
+  font-size: 18px;
+  margin-top: 10px;
 }
